@@ -171,7 +171,6 @@ export default class CardManager {
   onMouseUp(e) {
     const { target } = e;
 
-
     if (document.querySelector('.dragged') !== null) {
       const targetColumn = target.closest('.column-item');
       const targetClone = target.closest('.card_clone');
