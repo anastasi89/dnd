@@ -13,7 +13,6 @@
     "show:doc": "live-server doc",
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist",
-    "test": "jest --coverage",
     "deploy": "gh-pages -d dist"
   },
   "repository": "https://github.com/anastasi89/dnd",
